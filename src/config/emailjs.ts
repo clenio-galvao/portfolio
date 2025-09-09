@@ -3,16 +3,16 @@
 
 export const EMAILJS_CONFIG = {
   // Seu Public Key do EmailJS
-  PUBLIC_KEY: process.env.REACT_APP_EMAILJS_PUBLIC_KEY || '',
+  PUBLIC_KEY: process.env.EMAILJS_PUBLIC_KEY || '',
   
   // ID do serviço (Gmail)
-  SERVICE_ID: process.env.REACT_APP_EMAILJS_SERVICE_ID || '',
+  SERVICE_ID: process.env.EMAILJS_SERVICE_ID || '',
   
   // ID do template de email
-  TEMPLATE_ID: process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '',
+  TEMPLATE_ID: process.env.EMAILJS_TEMPLATE_ID || '',
   
   // Email de destino (seu email)
-  TO_EMAIL: process.env.REACT_APP_EMAILJS_TO_EMAIL || ''
+  TO_EMAIL: process.env.EMAILJS_TO_EMAIL || ''
 };
 
 // Função para validar se as configurações estão definidas

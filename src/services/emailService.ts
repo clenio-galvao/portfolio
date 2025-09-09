@@ -46,7 +46,7 @@ class EmailService {
         email: 'clenio.cgm@gmail.com'
       };
 
-      const response = await emailjs.send(
+      await emailjs.send(
         EMAILJS_CONFIG.SERVICE_ID,
         EMAILJS_CONFIG.TEMPLATE_ID,
         templateParams
