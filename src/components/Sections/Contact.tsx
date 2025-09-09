@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import { 
   ContactContainer, 
   ContactContent, 
+  ContactGrid,
   ContactInfo, 
   SectionTitle, 
   SectionSubtitle, 
@@ -114,14 +115,7 @@ const Contact: React.FC = () => {
           <SectionSubtitle>{t('contact.subtitle')}</SectionSubtitle>
         </motion.div>
 
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: '1fr 1fr', 
-          gap: '4rem', 
-          maxWidth: '1200px', 
-          margin: '0 auto',
-          alignItems: 'start'
-        }}>
+        <ContactGrid>
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -225,7 +219,7 @@ const Contact: React.FC = () => {
               </SubmitButton>
             </ContactForm>
           </motion.div>
-        </div>
+        </ContactGrid>
       </ContactContent>
     </ContactContainer>
   );

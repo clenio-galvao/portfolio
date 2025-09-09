@@ -3,11 +3,29 @@ import styled from 'styled-components';
 export const ContactContainer = styled.section`
   padding: 6rem 2rem;
   background: var(--bg-secondary);
+
+  @media (max-width: 768px) {
+    padding: 4rem 1rem;
+  }
 `;
 
 export const ContactContent = styled.div`
   max-width: 1200px;
   margin: 0 auto;
+`;
+
+export const ContactGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 `;
 
 export const SectionTitle = styled.h2`
@@ -38,6 +56,11 @@ export const Description = styled.p`
   font-size: 1.1rem;
   color: var(--text-secondary);
   line-height: 1.8;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 `;
 
 export const ContactDetails = styled.div`
@@ -63,6 +86,11 @@ export const ContactItem = styled.a`
     transform: translateX(5px);
     box-shadow: var(--shadow-md);
   }
+
+  @media (max-width: 768px) {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
 `;
 
 export const ContactIcon = styled.div`
@@ -74,10 +102,20 @@ export const ContactIcon = styled.div`
   background: var(--bg-tertiary);
   border-radius: 8px;
   border: 1px solid var(--border-color);
+
+  @media (max-width: 768px) {
+    width: 36px;
+    height: 36px;
+  }
 `;
 
 export const ContactText = styled.span`
   font-weight: 500;
+  font-size: 0.9rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.85rem;
+  }
 `;
 
 export const ContactForm = styled.form`
@@ -92,6 +130,7 @@ export const ContactForm = styled.form`
 
   @media (max-width: 768px) {
     margin-top: 2rem;
+    padding: 1.5rem;
   }
 `;
 

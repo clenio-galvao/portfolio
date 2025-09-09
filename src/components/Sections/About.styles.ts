@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const AboutContainer = styled.section`
   padding: 6rem 2rem;
   background: var(--bg-primary);
+
+  @media (max-width: 768px) {
+    padding: 4rem 1rem;
+  }
 `;
 
 export const AboutContent = styled.div`
@@ -11,7 +15,7 @@ export const AboutContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: center;
+  align-items: start;
   margin-bottom: 4rem;
 
   @media (max-width: 768px) {
@@ -50,6 +54,11 @@ export const Description = styled.p`
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 `;
 
 export const DownloadButton = styled.button`
@@ -80,12 +89,8 @@ export const DownloadButton = styled.button`
 
 export const AboutImage = styled.div`
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-
-  @media (max-width: 768px) {
-    order: -1;
-  }
 `;
 
 export const CardsGrid = styled.div`
@@ -131,6 +136,10 @@ export const Card = styled.div`
   &:hover::before {
     opacity: 1;
   }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+  }
 `;
 
 export const CardIcon = styled.div<{ color: string }>`
@@ -149,6 +158,12 @@ export const CardIcon = styled.div<{ color: string }>`
     transform: scale(1.1);
     background: ${props => props.color}30;
   }
+
+  @media (max-width: 768px) {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const CardTitle = styled.h3`
@@ -157,6 +172,10 @@ export const CardTitle = styled.h3`
   color: var(--text-primary);
   margin-bottom: 1rem;
   line-height: 1.3;
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const CardContent = styled.p`
@@ -164,6 +183,10 @@ export const CardContent = styled.p`
   color: var(--text-secondary);
   line-height: 1.6;
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const Stats = styled.div`
@@ -173,6 +196,12 @@ export const Stats = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   padding: 0 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
 `;
 
 export const StatItem = styled.div`
@@ -189,6 +218,10 @@ export const StatItem = styled.div`
     box-shadow: var(--shadow-lg);
     border-color: var(--accent-primary);
   }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+  }
 `;
 
 export const StatNumber = styled.div`
@@ -196,10 +229,18 @@ export const StatNumber = styled.div`
   font-weight: 700;
   color: var(--accent-primary);
   margin: 1rem 0 0.5rem 0;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const StatLabel = styled.div`
   font-size: 1rem;
   color: var(--text-secondary);
   font-weight: 500;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
 `;
