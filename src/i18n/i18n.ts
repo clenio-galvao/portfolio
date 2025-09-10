@@ -16,7 +16,7 @@ const resources = {
         name: 'Clênio Galvão',
         title: 'Desenvolvedor Full Stack',
         description: 'Criando experiências digitais incríveis com código limpo, responsivo e design moderno.',
-        cta: 'Vamos conversar',
+        cta: 'Vamos começar',
         scroll: 'Role para baixo'
       },
       about: {
@@ -25,7 +25,7 @@ const resources = {
         description: 'Sou um desenvolvedor apaixonado por tecnologia e inovação. Com experiência em desenvolvimento full stack e liderança de equipes, sempre busco criar soluções eficientes e elegantes que resolvam problemas reais.',
         journey: {
           title: 'Minha Jornada',
-          content: 'Iniciei minha carreira como desenvolvedor há mais de 4 anos, trabalhando com diferentes tecnologias e metodologias. Ao longo dos anos, desenvolvi expertise em JavaScript, TypeScript, React, Node.js e outras tecnologias modernas.',
+          content: 'Iniciei minha carreira como desenvolvedor há mais de 4 anos, trabalhando com diferentes tecnologias e metodologias. Ao longo dos anos, desenvolvi expertise em JavaScript, TypeScript, React, Django, Python, Node.js e outras tecnologias modernas.',
           icon: 'journey'
         },
         goals: {
@@ -119,7 +119,7 @@ const resources = {
         name: 'Clênio Galvão',
         title: 'Full Stack Developer',
         description: 'Creating amazing digital experiences with clean code, responsive and modern design.',
-        cta: "Let's talk",
+        cta: "Let's start",
         scroll: 'Scroll down'
       },
       about: {
@@ -128,7 +128,7 @@ const resources = {
         description: 'I am a developer passionate about technology and innovation. With full stack development experience and team leadership, I always seek to create efficient and elegant solutions that solve real problems.',
         journey: {
           title: 'My Journey',
-          content: 'I started my career as a developer over 4 years ago, working with different technologies and methodologies. Over the years, I have developed expertise in JavaScript, TypeScript, React, Node.js and other modern technologies.',
+          content: 'I started my career as a developer over 4 years ago, working with different technologies and methodologies. Over the years, I have developed expertise in JavaScript, TypeScript, React, Django, Python, Node.js and other modern technologies.',
           icon: 'journey'
         },
         goals: {
@@ -222,7 +222,7 @@ const resources = {
         name: 'Clênio Galvão',
         title: 'Desarrollador Full Stack',
         description: 'Creando experiencias digitales increíbles con código limpio, responsivo y diseño moderno.',
-        cta: 'Hablemos',
+        cta: 'Vamos Comenzar',
         scroll: 'Desplázate hacia abajo'
       },
       about: {
@@ -231,7 +231,7 @@ const resources = {
         description: 'Soy un desarrollador apasionado por la tecnología y la innovación. Con experiencia en desarrollo full stack y liderazgo de equipos, siempre busco crear soluciones eficientes y elegantes que resuelvan problemas reales.',
         journey: {
           title: 'Mi Trayectoria',
-          content: 'Inicié mi carrera como desarrollador hace más de 4 años, trabajando con diferentes tecnologías y metodologías. A lo largo de los años, he desarrollado experiencia en JavaScript, TypeScript, React, Node.js y otras tecnologías modernas.',
+          content: 'Inicié mi carrera como desarrollador hace más de 4 años, trabajando con diferentes tecnologías y metodologías. A lo largo de los años, he desarrollado experiencia en JavaScript, TypeScript, React, Django, Python, Node.js y otras tecnologías modernas.',
           icon: 'journey'
         },
         goals: {
